@@ -1,14 +1,12 @@
 # MVDANT
 
-![featured](https://github.com/vision4robotics/UDAT/blob/main/img/featured.png)
+![featured]([[https://github.com/vision4robotics/UDAT/blob/main/img/featured.png](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png)](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png))
 
 ## Overview
 
-**UDAT** is an unsupervised domain adaptation framework for visual object tracking. This repo contains its Python implementation.
+**MVDANT** is an unsupervised domain adaptation framework for visual object tracking. This repo contains its Python implementation.
 
-[Paper](https://arxiv.org/abs/2203.10541) | [NAT2021 benchmark](https://vision4robotics.github.io/NAT2021/)
-
-## Testing UDAT
+## Testing MVDANT
 
 ### 1. Preprocessing
 
@@ -46,7 +44,7 @@ Before training, we need to preprocess the unlabelled training data to generate 
 
 ### 2. Train
 
-Take UDAT-CAR for instance.
+Take MVDANT for instance.
 
 1. Apart from above target domain dataset NAT2021, you need to download and prepare source domain datasets [VID](https://image-net.org/challenges/LSVRC/2017/) and [GOT-10K](http://got-10k.aitestunion.com/downloads).
 
@@ -55,24 +53,24 @@ Take UDAT-CAR for instance.
 3. Start training
 
    ``` python
-   cd UDAT/CAR
+   cd MVADNT
    export PYTHONPATH=$PWD
-   python tools/train.py
+   python tools/train_MVADNT.py
    ```
 
 ### 3. Test
-Take UDAT-CAR for instance.
-1. For quick test, you can download our trained model for [UDAT-CAR](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [UDAT-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `UDAT/CAR/experiments/udatcar_r50_l234`.
+Take MVADNT for instance.
+1. For quick test, you can download our trained model for [MVADNT](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) and place it at `MVADNT/CAR/experiments/udatcar_r50_l234`.
 
 2. Start testing
 
     ```python
-    python tools/test.py --dataset NAT
+    python tools/test.py --dataset NAT (UAVDark70)
     ```
 
 ### 4. Eval
 
 1. Start evaluating
     ``` python
-    python tools/eval.py --dataset NAT
+    python tools/eval.py --dataset NAT (UAVDark70)
     ```
