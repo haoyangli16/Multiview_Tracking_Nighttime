@@ -1,6 +1,6 @@
 # MVDANT
 
-![featured]([[https://github.com/vision4robotics/UDAT/blob/main/img/featured.png](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png)](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png))
+![https://github.com/vision4robotics/UDAT/blob/main/img/featured.png](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png)
 
 ## Overview
 
