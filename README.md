@@ -65,12 +65,14 @@ Take MVADNT for instance.
 2. Start testing
 
     ```python
-    python tools/test.py --dataset NAT (UAVDark70)
+    python tools/test.py --dataset NAT 
+    python tools/test.py --dataset UAVDark70
     ```
 
 ### 4. Eval
 
 1. Start evaluating
     ``` python
-    python tools/eval.py --dataset NAT (UAVDark70)
+    python tools/eval.py --dataset NAT
+    python tools/eval.py --dataset UAVDark70
     ```
