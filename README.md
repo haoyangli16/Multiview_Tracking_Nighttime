@@ -1,6 +1,9 @@
 # MVDANT
 
-![https://github.com/vision4robotics/UDAT/blob/main/img/featured.png](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png)
+[Haoyang Li](https://vision4robotics.github.io/), [Changhong Fu](https://vision4robotics.github.io/authors/changhong-fu/), [Guangze Zheng](https://zhengguangze.netlify.app/), [Sihang Li](https://vision4robotics.github.io/), and [Junjie Ye](https://jayye99.github.io/). Multi-View Domain Adaptation for Nighttime Aerial Tracking. 
+
+
+![overview](https://github.com/LiHaoyang0616/MVDANT/blob/main/fig/overview.png)
 
 ## Overview
 
